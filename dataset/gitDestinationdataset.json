@@ -1,0 +1,36 @@
+{
+	"name": "gitDestinationdataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "gitLinked_service",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "output",
+				"container": "sumit"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Sumit",
+				"type": "String"
+			},
+			{
+				"name": "Male",
+				"type": "String"
+			},
+			{
+				"name": "7262",
+				"type": "String"
+			}
+		]
+	}
+}
