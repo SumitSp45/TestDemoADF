@@ -1,0 +1,9 @@
+{
+	"name": "ADFDemoGitrepo",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e77c0ad2-efd7-4883-9a96-b94c0d293e9e",
+		"tenantId": "786fac90-90d5-4dcd-b590-e4a73de8814a"
+	}
+}
