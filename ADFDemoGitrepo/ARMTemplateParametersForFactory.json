@@ -4,6 +4,9 @@
 	"parameters": {
 		"factoryName": {
 			"value": "ADFDemoGitrepo"
+		},
+		"gitLinked_service_connectionString": {
+			"value": ""
 		}
 	}
 }
