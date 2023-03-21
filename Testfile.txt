@@ -1,0 +1,4 @@
+Id    Name    Salary
+1     John    200000
+2     Joe     220000  
+3     Marry   500000
